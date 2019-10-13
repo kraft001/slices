@@ -4,10 +4,10 @@ require 'devise/orm/mongoid'
 require 'mongoid'
 require 'mongoid_paperclip'
 require 'mongoid-observers'
-require 'kaminari-mongoid'
 require 'RedCloth'
 require 'redcarpet'
 require 'stringex'
+require 'kaminari'
 
 require 'slices/paperclip'
 require 'slices/version'
@@ -47,7 +47,6 @@ module Slices
 end
 
 require 'slices/engine' if defined?(Rails)
-require 'slices/will_paginate'
 
 Slices::Config.use_snippets!
 

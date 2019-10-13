@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'redcarpet'         , '~> 3.3'
   s.add_dependency 'RedCloth'          , '~> 4.2'
   s.add_dependency 'stringex'          , '~> 1.4.0'
-  s.add_dependency 'kaminari-mongoid'  , '~> 1.0'
+  s.add_dependency 'kaminari-mongoid'
 
   src_files           = Dir['{app,lib}/**/*']
   template_files      = Dir['public/slices/templates/*.hbs']
