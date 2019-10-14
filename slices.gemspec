@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'actionpack-page_caching', '~> 1.0'
   s.add_dependency 'devise'            , '~> 3.5'
   s.add_dependency 'highline'          , '~> 1.6.0'
-  s.add_dependency 'mongoid'           , '~> 4.0'
+  s.add_dependency 'mongoid'           , '~> 5.0'
   s.add_dependency 'mongoid-observers' , '~> 0'
   s.add_dependency 'mongoid-paperclip' , '~> 0'
   s.add_dependency 'paperclip'         , '~> 4.3', '!= 4.3.3'

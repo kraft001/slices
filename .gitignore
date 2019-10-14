@@ -26,3 +26,5 @@ rdoc
 tmp/**/*
 zeus.json
 spec/dummy/tmp
+*.swp
+*.swo
