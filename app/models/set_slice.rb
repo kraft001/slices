@@ -29,7 +29,10 @@ class SetSlice < Slice
   end
 
   def page_entries(params = {})
-    entries.paginate(paginate_options(params))
+    Kaminari.
+      paginate_array(entries).
+      page(@page_num).
+      per(per_page)
   end
 
   def paginate_options(params)
